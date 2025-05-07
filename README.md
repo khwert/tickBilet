@@ -1,16 +1,55 @@
 # ticketproject
 
-A new Flutter project.
+🚌 Turkish Intercity Bus Ticket Booking App
+This is a simple travel ticket booking system for intercity trips within Turkey. The project consists of two platforms:
 
-## Getting Started
+🔹 1. Company Platform
+Allows bus companies to:
 
-This project is a starting point for a Flutter application.
+Manage trips and schedules
 
-A few resources to get you started if this is your first Flutter project:
+Add and edit buses
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+View and control reservations
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔹 2. Passenger Platform
+Allows users to:
+
+Browse available trips
+
+Select seats with gender-based filtering
+
+Book tickets and receive confirmation
+
+💻 Technologies Used
+Dart & Flutter – for building the mobile user interface
+
+PostgreSQL – as the main database
+
+PHP (PDO) – for writing secure and efficient REST APIs
+
+Provider – for state management in Flutter
+
+SharedPreferences – for local data caching
+
+📱 Features
+Gender-aware seat selection
+
+Real-time seat availability update
+
+Multi-role support (companies and users)
+
+Modern UI with clean UX flow
+
+Turkish and English support (can be extended)
+
+🚀 How to Run
+Clone the repository
+
+Set up the PostgreSQL database using the provided schema
+
+Host the PHP API files on a local or remote server
+
+Configure the API URLs inside the Flutter app
+
+Run the app using flutter run
