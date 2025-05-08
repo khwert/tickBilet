@@ -53,3 +53,10 @@ Host the PHP API files on a local or remote server
 Configure the API URLs inside the Flutter app
 
 Run the app using flutter run
+
+
+
+
+https://github.com/user-attachments/assets/8ebf63e5-54d8-4074-91e1-d7be6e89af92
+
+
